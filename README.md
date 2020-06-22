@@ -46,4 +46,10 @@ npm start
 
 Feito isso a API estará rodando 
 
+Se tudo estiver rodando da maneira correta a mensagem abaixo aparecerá no terminal
+```
+Servidor rodando na porta 3000
+Banco de dados conectado
+```
+
 Agora o segundo passo é rodar a aplicação Front-End
