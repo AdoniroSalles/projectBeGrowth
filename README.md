@@ -1,7 +1,7 @@
 # Projeto Be Growth
 
 Este projeto foi desenvolvido como parte do processo seletivo para a vaga de desenvolvedor junior da Be Growth.
-Para tanto a aplicação foi desenvolvida em duas partes, a back-end e a front-end. Neste repósitorio se encotnra a parte Back-End da aplicação, para a parte Front-End acesse o link: 
+Para tanto a aplicação foi desenvolvida em duas partes, a back-end e a front-end. Neste repósitorio se encotnra a parte Back-End da aplicação. O [Front-End](https://github.com/AdoniroSalles/frontendBeGrowth)
 
  
 ## Back-end
