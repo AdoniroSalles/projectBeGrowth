@@ -7,6 +7,7 @@ const authConfig = require('../config/auth.json')
 module.exports = {
 
      //para poder criar um novo usuario
+
      async user(req, res) {
 
           const { username, email, password, password2} = req.body
@@ -82,7 +83,7 @@ module.exports = {
 
           user.password = undefined
            
-          res.send({ user, token: this.generateToken({ id: user.id }) })
+          res.send({ user, token: this.generateToken({ user }) })
      },
 
      //gerar token
