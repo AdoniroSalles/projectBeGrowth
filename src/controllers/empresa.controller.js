@@ -64,6 +64,19 @@ module.exports = {
           }catch(error) { 
                return res.status(400).send({ error: 'Not found data'})
           }
+     },
+
+     async delete(req, res){
+
+          const {id} = req.params.id
+          console.log(req.params.id)
+          try{
+               await empresaModel.findByIdAndRemove(req.params.id)
+               return res.status(200).send({ msg: 'Delete success'})
+
+          }catch(error){
+               return res.status(400).send({ error: 'Error deleting project '})
+          }
      }
         
 }

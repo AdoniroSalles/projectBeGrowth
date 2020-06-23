@@ -12,4 +12,7 @@ router.post('/empresa', (req, res) => empresaController.create(req, res))
 //atualiza dado da lista
 router.put('/empresa', (req,res) => empresaController.update(req,res) )
 
+//excluir dado
+router.delete('/empresa/:id', (req,res) => empresaController.delete(req,res))
+
 module.exports = router
